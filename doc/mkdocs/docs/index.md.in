@@ -1,0 +1,49 @@
+# @PROJECT_NAME@
+
+**@PROJECT_NAME@ : Lattice Boltzmann Methods parallel C++ implementation for multi-phase flow simulations**
+
+## [Introduction](/introduction)
+
+## [How to get the code](/get_the_code)
+
+## Feature list
+
+!!! note
+    TODO
+
+Resources
+---------
+
+**About documentation**
+
+This documentation is generated with [mkdocs](https://www.mkdocs.org/) for the static website structure and [doxybook2](https://github.com/matusnovak/doxybook2) for integrating doxygen into markdown. 
+
+We recommend that you install [mkdocs](https://www.mkdocs.org/) using anaconda:
+```shell
+conda install -c conda-forge mkdocs
+```
+
+We also recommend that install [doxybook2](https://github.com/matusnovak/doxybook2) from a binary release at [https://github.com/matusnovak/doxybook2/tags](https://github.com/matusnovak/doxybook2/tags).
+
+Additional requirements:
+- [markdown_katex](https://pypi.org/project/markdown-katex/) is required to have Latex equation rendering in markdow
+ ```shell
+ # follow the steps at https://pypi.org/project/markdown-katex/
+ pip install markdown-katex
+ ```
+
+Mkdocs main commands summary:
+
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs help` - Print this help message.
+
+
+**Online Documentation (TODO)**
+
+https://github.com/pkestene/@PROJECT_NAME@ ??
+
+**Source Repo**
+
+https://gitlab.maisondelasimulation.fr/pkestene/@PROJECT_NAME@
+

@@ -1,0 +1,11 @@
+build*
+_build*
+*~
+.ccls-cache
+compile_commands.json
+.clangd
+init_data/
+*.vti
+*.h5
+*.xmf
+*.orig

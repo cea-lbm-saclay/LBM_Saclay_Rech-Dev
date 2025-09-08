@@ -1,0 +1,18 @@
+#ifndef InitConditionsTypes_AD_H
+#define InitConditionsTypes_AD_H
+namespace PBM_AD {
+
+enum InitCondition{
+  PHASE_FIELD_INIT_VERTICAL,
+  PHASE_FIELD_INIT_SPHERE,
+  PHASE_FIELD_INIT_SQUARE,
+  PHASE_FIELD_INIT_DATA,
+  PHASE_FIELD_INIT_2SPHERE,
+  PHASE_FIELD_INIT_TAYLOR,
+  PHASE_FIELD_INIT_SHRF_VORTEX,
+  AD_1D_INIT_TUBE
+};
+
+}
+
+#endif

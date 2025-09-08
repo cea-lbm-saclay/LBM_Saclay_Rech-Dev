@@ -1,0 +1,22 @@
+************************************************************************************
+* Options generales de calcul
+* ---------------------------
+* Opt_Fluide	Opt_Transport	Opt_Thermique	Opt_PF   Opt_Couplage_PhaseField2D_Fluides2D
+non		        oui     	    non		        non      non
+* Lattice_Fluide	Lattice_Transport	Lattice_Thermique	Lattice_PF
+D2Q9			    D2Q5			    D2Q9			D2Q9
+*
+* Infos maillage et temps de calcul
+* ---------------------------------
+* nx	ny	    nt	    	nplot
+99      99	    1000	100
+* Pas d'espace et pas de temps
+dx	dt
+0.02 	1.d-4
+**********************************************************************************
+* Parametres du transport
+* -----------------------
+* D
+0.5d0
+* C init    Vx      Vy
+0.d0        0.d0    0.d0

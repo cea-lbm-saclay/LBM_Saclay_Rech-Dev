@@ -1,0 +1,4 @@
+module purge
+module load cmake/3.28.3
+module load hdf5/nvhpc_25.3_openmpi_5.0.3/1.14.3
+module list

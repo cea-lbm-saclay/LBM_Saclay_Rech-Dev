@@ -1,0 +1,14 @@
+#ifndef InitConditionsTypes_GPMIXT_H
+#define InitConditionsTypes_H
+namespace  PBM_DIRECTIONAL_SOLIDIFICATION {
+
+enum InitCondition{
+  PHASE_FIELD_INIT_UNDEFINED,
+  PHASE_FIELD_INIT_VERTICAL,
+  PHASE_FIELD_INIT_HORIZONTAl,
+  PHASE_FIELD_INIT_COSINUS
+};
+
+}
+
+#endif

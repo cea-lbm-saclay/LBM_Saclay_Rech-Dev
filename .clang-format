@@ -1,0 +1,18 @@
+###############
+#
+# clang-format option file for formatting cpp source code
+#
+####
+#
+# See https://clang.llvm.org/docs/ClangFormatStyleOptions.html
+# for a detailed description of what these options enforce
+#
+####
+BasedOnStyle: Mozilla
+IndentWidth: 4
+BreakBeforeBraces: Allman
+ColumnLimit: 0
+BreakConstructorInitializers: BeforeComma
+# Following used for array initializer, but needs clang-format version > 13.0.0
+# AlignArrayOfStructures: Right
+# Cpp11BracedListStyle: false

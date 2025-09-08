@@ -1,0 +1,18 @@
+#ifndef InitConditionsTypes_NS_PF_F_H
+#define InitConditionsTypes_NS_PF_F_H
+namespace PB_NS{
+
+
+enum InitCondition {
+    PHASE_FIELD_INIT_UNDEFINED,
+    PHASE_FIELD_INIT_VERTICAL,
+    PHASE_FIELD_INIT_SPHERE,
+    PHASE_FIELD_INIT_CYLINDER,
+    PHASE_FIELD_INIT_SQUARE,
+    PHASE_FIELD_INIT_DATA,
+    PHASE_FIELD_INIT_2SPHERE,
+    PHASE_FIELD_INIT_TAYLOR
+};
+}
+
+#endif
