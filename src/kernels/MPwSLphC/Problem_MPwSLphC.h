@@ -61,6 +61,7 @@ struct Problem : public ProblemBase<dim, npop> {
     }
 
     scheme = LBMSchemeSpec(configMap, params, Base::Mdata);
+    scheme.allocate_f(Base::nbEqs);
   };
 
   template <typename EquationTag, typename Collider> void update1eq() {
